@@ -62,7 +62,7 @@ public class PrimaryController implements Initializable {
         }
     }
 
-    private Usuario carregarUsuarioDoFormulario(){
+    private Usuario carregarUsuarioDoFormulario() {
         String nome = textFieldNome.getText();
         String email = textFieldEmail.getText();
         String senha = passwordField.getText();
